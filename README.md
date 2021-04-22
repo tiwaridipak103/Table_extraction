@@ -11,3 +11,12 @@ consists of an image and its corresponding annotation which indicate the coordin
 # Brief overview TableNet Architecture:
 As per the business problem statement, our input is an image file to the model, we will be getting the two outputs i.e regarding table detection and tabular structure(row and columns) identification. It is the pixel-wise detection of tabular sub-image while tabular structure recognition involves segmentation of the individual rows and columns in the detected table. The model consists of two parts which are encoder and decoder. The pre-trained VGG19 model is introduced as the baseline encoder model.
 
+![11](https://user-images.githubusercontent.com/77537478/115711117-c6bfaa80-a390-11eb-80a4-7842e3531f03.JPG)
+
+# Data Extraction:
+After training the TableNet model and found out the best weight, one of the major tasks is to predict the table if it exists in the image and if so then extract the information from the table in the form of CSV file.
+
+# Condition :
+A High-resolution image with lots of data along with high GPU support would improved the model performance immensely.
+
+
